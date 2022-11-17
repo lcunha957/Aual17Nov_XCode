@@ -14,4 +14,8 @@ class Tela1ViewController : UIViewController
         super.viewDidLoad()
     }
     
+    // botao de voltar pra tela do meio 
+    @IBAction func btnBack(_ sender: UIButton) {
+        _ = navigationController?.popViewController(animated: true)
+    }
 }
