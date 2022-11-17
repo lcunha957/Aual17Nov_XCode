@@ -17,6 +17,7 @@
 		E13819FB2926E833000960AD /* projeto8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13819FA2926E833000960AD /* projeto8UITests.swift */; };
 		E1381A092926E956000960AD /* Tela1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1381A082926E956000960AD /* Tela1ViewController.swift */; };
 		E1381A0B2926EC72000960AD /* Tela2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1381A0A2926EC72000960AD /* Tela2ViewController.swift */; };
+		E1381A0D2926EFC5000960AD /* Tela3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1381A0C2926EFC5000960AD /* Tela3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E13819FC2926E833000960AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1381A082926E956000960AD /* Tela1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela1ViewController.swift; sourceTree = "<group>"; };
 		E1381A0A2926EC72000960AD /* Tela2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela2ViewController.swift; sourceTree = "<group>"; };
+		E1381A0C2926EFC5000960AD /* Tela3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				E13819E62926E833000960AD /* Info.plist */,
 				E1381A082926E956000960AD /* Tela1ViewController.swift */,
 				E1381A0A2926EC72000960AD /* Tela2ViewController.swift */,
+				E1381A0C2926EFC5000960AD /* Tela3ViewController.swift */,
 			);
 			path = projeto8;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1381A0D2926EFC5000960AD /* Tela3ViewController.swift in Sources */,
 				E13819DD2926E833000960AD /* ViewController.swift in Sources */,
 				E13819D92926E833000960AD /* AppDelegate.swift in Sources */,
 				E1381A092926E956000960AD /* Tela1ViewController.swift in Sources */,

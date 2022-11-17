@@ -25,6 +25,15 @@
                                     <segue destination="Vup-Hi-yrM" kind="show" id="CuA-02-KDr"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dN-aD-0db">
+                                <rect key="frame" x="105" y="396" width="180" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Show Detail"/>
+                                <connections>
+                                    <segue destination="mQ1-Vr-MqW" kind="showDetail" id="rmt-5b-hX4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -34,6 +43,31 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="939.13043478260875" y="88.392857142857139"/>
+        </scene>
+        <!--Tela3 View Controller-->
+        <scene sceneID="WEH-iU-KQd">
+            <objects>
+                <viewController id="mQ1-Vr-MqW" customClass="Tela3ViewController" customModule="projeto8" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UIR-Uh-XaS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zW-Ff-P4N">
+                                <rect key="frame" x="141" y="396" width="132" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Desaparecer"/>
+                                <connections>
+                                    <action selector="btnDesaparecer:" destination="mQ1-Vr-MqW" eventType="touchUpInside" id="HBK-Af-r6A"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nPJ-dS-dlZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ghg-XC-nQR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="913.04347826086962" y="838.39285714285711"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="b5B-y5-0UQ">
@@ -95,20 +129,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IE1-2l-vgx">
-                                <rect key="frame" x="224" y="134" width="157" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Anterior"/>
-                                <connections>
-                                    <action selector="btnBackAnterior:" destination="xXy-QB-xro" eventType="touchUpInside" id="HCs-7i-r21"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2e-7Y-2E6">
-                                <rect key="frame" x="237" y="254" width="157" height="30"/>
+                                <rect key="frame" x="181" y="274" width="157" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Tela Raiz"/>
                                 <connections>
                                     <action selector="btnBackRoot:" destination="xXy-QB-xro" eventType="touchUpInside" id="hKe-w8-wMg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IE1-2l-vgx">
+                                <rect key="frame" x="181" y="143" width="157" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Anterior"/>
+                                <connections>
+                                    <action selector="btnBackAnterior:" destination="xXy-QB-xro" eventType="touchUpInside" id="HCs-7i-r21"/>
                                 </connections>
                             </button>
                         </subviews>
