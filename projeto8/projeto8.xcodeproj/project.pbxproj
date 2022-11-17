@@ -16,6 +16,7 @@
 		E13819F02926E833000960AD /* projeto8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13819EF2926E833000960AD /* projeto8Tests.swift */; };
 		E13819FB2926E833000960AD /* projeto8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13819FA2926E833000960AD /* projeto8UITests.swift */; };
 		E1381A092926E956000960AD /* Tela1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1381A082926E956000960AD /* Tela1ViewController.swift */; };
+		E1381A0B2926EC72000960AD /* Tela2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1381A0A2926EC72000960AD /* Tela2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E13819FA2926E833000960AD /* projeto8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projeto8UITests.swift; sourceTree = "<group>"; };
 		E13819FC2926E833000960AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1381A082926E956000960AD /* Tela1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela1ViewController.swift; sourceTree = "<group>"; };
+		E1381A0A2926EC72000960AD /* Tela2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				E13819E32926E833000960AD /* LaunchScreen.storyboard */,
 				E13819E62926E833000960AD /* Info.plist */,
 				E1381A082926E956000960AD /* Tela1ViewController.swift */,
+				E1381A0A2926EC72000960AD /* Tela2ViewController.swift */,
 			);
 			path = projeto8;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				E13819D92926E833000960AD /* AppDelegate.swift in Sources */,
 				E1381A092926E956000960AD /* Tela1ViewController.swift in Sources */,
 				E13819DB2926E833000960AD /* SceneDelegate.swift in Sources */,
+				E1381A0B2926EC72000960AD /* Tela2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

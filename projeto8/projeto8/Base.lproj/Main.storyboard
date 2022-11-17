@@ -62,11 +62,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9d-uh-gBT">
-                                <rect key="frame" x="351" y="88" width="41" height="30"/>
+                                <rect key="frame" x="309" y="88" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Voltar"/>
                                 <connections>
                                     <action selector="btnBack:" destination="Vup-Hi-yrM" eventType="touchUpInside" id="Vz8-Ob-gmZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6I-av-LcZ">
+                                <rect key="frame" x="158" y="301" width="157" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Proxima"/>
+                                <connections>
+                                    <segue destination="xXy-QB-xro" kind="show" id="u9z-Pz-azq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -78,6 +86,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6gQ-Qm-zYC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1656.521739130435" y="87.723214285714278"/>
+        </scene>
+        <!--Tela2 View Controller-->
+        <scene sceneID="YgS-LV-ra7">
+            <objects>
+                <viewController id="xXy-QB-xro" customClass="Tela2ViewController" customModule="projeto8" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UrH-Cv-Vvn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IE1-2l-vgx">
+                                <rect key="frame" x="224" y="134" width="157" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Anterior"/>
+                                <connections>
+                                    <action selector="btnBackAnterior:" destination="xXy-QB-xro" eventType="touchUpInside" id="HCs-7i-r21"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2e-7Y-2E6">
+                                <rect key="frame" x="237" y="254" width="157" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Tela Raiz"/>
+                                <connections>
+                                    <action selector="btnBackRoot:" destination="xXy-QB-xro" eventType="touchUpInside" id="hKe-w8-wMg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mqZ-WW-bhg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zab-B0-Ecv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ybn-zf-YQo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2416" y="88"/>
         </scene>
     </scenes>
     <resources>
